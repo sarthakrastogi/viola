@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if command -v viola >/dev/null 2>&1; then viola ensure-running --quiet >/dev/null 2>&1 || echo 'viola: the router failed to start; run `viola doctor`.'; else echo 'viola: CLI not found on PATH. Install it with the install.sh from the viola repo.'; fi",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{"label": "small", "text": "what does `set -euo pipefail` do at the top of this script"}
+{"label": "small", "text": "rename getUserData to fetchUser everywhere in src/api/client.ts"}
+{"label": "small", "text": "git log for just the files under modules/gateway"}
+{"label": "small", "text": "add `node_modules/` and `dist/` to .gitignore"}
+{"label": "small", "text": "why does this say 'permission denied' when I run ./deploy.sh"}
+{"label": "small", "text": "change the default region in variables.tf from us-east-1 to ap-southeast-2"}
+{"label": "small", "text": "explain what the `?.` operator does on line 42"}
+{"label": "small", "text": "run pytest just for tests/test_auth.py"}
+{"label": "small", "text": "fix the indentation in this yaml, the linter is complaining about line 18"}
+{"label": "small", "text": "what's the jq command to pull out .items[].name from this json"}
+{"label": "medium", "text": "add a --dry-run flag to the cleanup CLI that prints what would be deleted"}
+{"label": "medium", "text": "write pytest tests for the token refresh logic in auth/session.py, mock the http calls"}
+{"label": "medium", "text": "the /orders endpoint is slow, add an index or fix the query so it stops doing a full table scan"}
+{"label": "medium", "text": "add a terraform output for the lambda ARN and wire it into the api gateway integration"}
+{"label": "medium", "text": "convert this class component to a function component with hooks"}
+{"label": "medium", "text": "our dockerfile image is 2GB, slim it down"}
+{"label": "medium", "text": "add retry and timeout handling to the s3 upload helper, with logging on each attempt"}
+{"label": "medium", "text": "the date filter on the reports page ignores the end date, find the bug and add a test for it"}
+{"label": "medium", "text": "write a github action that runs terraform fmt and validate on PRs touching *.tf"}
+{"label": "medium", "text": "implement a /me endpoint that returns the current user's profile from the jwt claims"}
+{"label": "large", "text": "trace why requests through the gateway intermittently get 403s from the downstream MCP runtime only in prod, check the token audience, cedar policies and the interceptor"}
+{"label": "large", "text": "refactor our three copy-pasted ingestion lambdas into one shared module with per-source config, without changing their outputs"}
+{"label": "large", "text": "migrate the frontend from webpack to vite, including env vars, aliases, tests and the CI build"}
+{"label": "large", "text": "design and implement per-tenant rate limits and quotas across the API, worker queue and billing"}
+{"label": "large", "text": "do a thorough security review of the auth flow, token storage and session handling and fix what you find"}
+{"label": "large", "text": "move our cron jobs from the EC2 box to step functions with retries, alerting and idempotency"}
+{"label": "large", "text": "the nightly dbt run takes 4 hours now, profile it and restructure the slow models to get it under one hour"}
+{"label": "large", "text": "add full audit logging for every data access across the API and two background services, stored immutably"}
+{"label": "large", "text": "replace our homegrown feature flags with OpenFeature across backend and frontend, keeping existing flag behaviour"}
+{"label": "large", "text": "there's a memory leak in the websocket server that only shows under load after a few hours, find it and fix it"}
+{"label": "xl", "text": "design and build a multi-region, multi-account agent platform from scratch: runtime, gateway, identity, policy, observability, CI/CD and cost controls"}
+{"label": "xl", "text": "rewrite our 300k-line perl billing system in go, with a parallel-run harness proving identical invoices for 12 months of history"}
+{"label": "xl", "text": "build a new query engine for our lakehouse with a cost-based optimizer, vectorized execution and iceberg support"}
+{"label": "xl", "text": "go through the whole codebase, find every architectural problem, and plan and execute a full re-architecture over the next few weeks"}
+{"label": "xl", "text": "implement our own distributed job scheduler to replace airflow, with exactly-once semantics, backfills, lineage and a UI"}
+{"label": "xl", "text": "build a static type checker for our internal config language, including inference, generics and an LSP server"}
+{"label": "xl", "text": "we're merging with another company: unify both data platforms, identity systems and 200 services into one estate"}
+{"label": "xl", "text": "create an autonomous SRE agent that watches all our production systems, diagnoses incidents and ships fixes end to end"}
+{"label": "xl", "text": "build a fully featured clone of github: repos, PRs, code review, CI runners, issues, search and permissions"}
+{"label": "xl", "text": "research, design and implement a new caching layer that provably keeps strong consistency across 5 regions with sub-10ms reads"}

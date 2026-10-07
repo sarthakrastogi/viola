@@ -1,0 +1,40 @@
+{"label": "small", "text": "hey so I was looking at the readme earlier today and I noticed that in the installation section there's a spot where it says 'pip instal' instead of 'pip install', could you please just fix that one typo for me, thanks"}
+{"label": "small", "text": "I'm working on the backend service and I need to quickly check which version of fastapi is currently pinned in our requirements file before I talk to my team lead about upgrading things later this week"}
+{"label": "small", "text": "can you look at the distributed systems config file and just change the replica count value from 3 to 5"}
+{"label": "small", "text": "in the kubernetes manifest for the payment microservice, update the image tag from v1.2.3 to v1.2.4"}
+{"label": "small", "text": "what does the acronym CRDT stand for"}
+{"label": "small", "text": "in the compiler project, rename the file lexer_old.rs to lexer_legacy.rs"}
+{"label": "small", "text": "our security team asked me to confirm what TLS version nginx is configured with in nginx.conf, can you just read it and tell me"}
+{"label": "small", "text": "add the word 'experimental' to the description field of the consensus module's package.json"}
+{"label": "small", "text": "there is a comment in the database migration file that says 'TODO remove' on line 40, delete just that comment line"}
+{"label": "small", "text": "what's the git command to see who last modified line 120 of the kernel scheduler file"}
+{"label": "medium", "text": "add tests"}
+{"label": "medium", "text": "fix the flaky login test"}
+{"label": "medium", "text": "dockerize this"}
+{"label": "medium", "text": "add auth to the api"}
+{"label": "medium", "text": "make the table sortable"}
+{"label": "medium", "text": "I've been going back and forth with my team for a while about this and we finally decided that we want a simple contact form on the about page with name, email and message fields that posts to our existing /contact endpoint"}
+{"label": "medium", "text": "the csv export is missing the created_at column"}
+{"label": "medium", "text": "write a script to dedupe these log files"}
+{"label": "medium", "text": "add a loading spinner while the dashboard fetches data, and show an error toast if it fails"}
+{"label": "medium", "text": "speed up the slow unit tests"}
+{"label": "large", "text": "make the app multi-tenant"}
+{"label": "large", "text": "find the deadlock"}
+{"label": "large", "text": "add SSO"}
+{"label": "large", "text": "fix the race condition in the ledger"}
+{"label": "large", "text": "move us off redux"}
+{"label": "large", "text": "security review this repo"}
+{"label": "large", "text": "why is prod p99 so high"}
+{"label": "large", "text": "add offline sync with conflict resolution"}
+{"label": "large", "text": "upgrade to react 19 everywhere"}
+{"label": "large", "text": "split billing into its own service"}
+{"label": "xl", "text": "write a database"}
+{"label": "xl", "text": "build our own kubernetes"}
+{"label": "xl", "text": "rewrite the monolith"}
+{"label": "xl", "text": "make a browser engine"}
+{"label": "xl", "text": "build an OS"}
+{"label": "xl", "text": "clone figma"}
+{"label": "xl", "text": "migrate all 600 repos to python 3"}
+{"label": "xl", "text": "write a compiler for our language"}
+{"label": "xl", "text": "build a self-driving sim"}
+{"label": "xl", "text": "fix all the open issues"}

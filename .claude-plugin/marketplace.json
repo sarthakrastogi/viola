@@ -1,0 +1,14 @@
+{
+  "name": "viola",
+  "description": "Viola: on-device model routing for coding agents.",
+  "owner": {
+    "name": "Sarthak Rastogi"
+  },
+  "plugins": [
+    {
+      "name": "viola",
+      "source": "./plugins/claude-code",
+      "description": "On-device model routing for Claude Code (Haiku / Sonnet / Opus / Fable per prompt)."
+    }
+  ]
+}

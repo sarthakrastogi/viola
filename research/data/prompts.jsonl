@@ -1,0 +1,200 @@
+{"label": "small", "text": "what does git stash pop do"}
+{"label": "small", "text": "rename the variable usr to user in utils.py"}
+{"label": "small", "text": "fix the typo in the README, it says 'recieve'"}
+{"label": "small", "text": "run the tests"}
+{"label": "small", "text": "what's the command to list all docker containers including stopped ones"}
+{"label": "small", "text": "add a .gitignore entry for .env files"}
+{"label": "small", "text": "format this file with black"}
+{"label": "small", "text": "what port is the dev server running on?"}
+{"label": "small", "text": "show me the last 5 commits"}
+{"label": "small", "text": "convert this json to yaml"}
+{"label": "small", "text": "explain what this regex does: ^\\d{3}-\\d{4}$"}
+{"label": "small", "text": "bump the version in package.json to 1.4.2"}
+{"label": "small", "text": "delete the unused import on line 3"}
+{"label": "small", "text": "what python version is this project using"}
+{"label": "small", "text": "add a docstring to the parse_date function"}
+{"label": "small", "text": "change the button color from blue to green in styles.css"}
+{"label": "small", "text": "how do i undo my last commit but keep the changes"}
+{"label": "small", "text": "create a new branch called feature/login"}
+{"label": "small", "text": "what does the -r flag do for rm"}
+{"label": "small", "text": "list the files in the src directory"}
+{"label": "small", "text": "make the log message say 'Starting server' instead of 'start'"}
+{"label": "small", "text": "install requests and add it to requirements.txt"}
+{"label": "small", "text": "what's the difference between let and const"}
+{"label": "small", "text": "sort the keys in config.json alphabetically"}
+{"label": "small", "text": "add a TODO comment above the retry loop"}
+{"label": "small", "text": "which file defines the User model?"}
+{"label": "small", "text": "commit these changes with message 'fix lint'"}
+{"label": "small", "text": "change the default timeout from 30 to 60 seconds"}
+{"label": "small", "text": "what does this error mean: ModuleNotFoundError: No module named 'yaml'"}
+{"label": "small", "text": "uppercase the constant names in constants.py"}
+{"label": "small", "text": "how many lines of code are in this repo"}
+{"label": "small", "text": "remove the console.log statements from app.js"}
+{"label": "small", "text": "add type hints to the add(a, b) function"}
+{"label": "small", "text": "what's in the Makefile?"}
+{"label": "small", "text": "push my branch to origin"}
+{"label": "small", "text": "translate this error message to plain english: ECONNREFUSED 127.0.0.1:5432"}
+{"label": "small", "text": "replace tabs with spaces in main.go"}
+{"label": "small", "text": "write a one-line bash command to count .py files"}
+{"label": "small", "text": "what is the license of this project"}
+{"label": "small", "text": "add an email field to the .env.example file"}
+{"label": "small", "text": "make this function name snake_case"}
+{"label": "small", "text": "check if node is installed"}
+{"label": "small", "text": "summarise what this 20-line script does"}
+{"label": "small", "text": "where is the main entrypoint for this app"}
+{"label": "small", "text": "add a newline at the end of the file"}
+{"label": "small", "text": "show git diff for the last commit"}
+{"label": "small", "text": "what does HTTP 429 mean"}
+{"label": "small", "text": "comment out the debug flag in settings.py"}
+{"label": "small", "text": "pin numpy to 1.26 in requirements"}
+{"label": "small", "text": "tell me the current branch name"}
+{"label": "medium", "text": "write unit tests for the parse_date function covering edge cases"}
+{"label": "medium", "text": "the login endpoint returns 500 when the password is empty, find and fix it"}
+{"label": "medium", "text": "add pagination to the /users API endpoint"}
+{"label": "medium", "text": "refactor this 200 line function into smaller helper functions"}
+{"label": "medium", "text": "create a react component for a searchable dropdown with keyboard navigation"}
+{"label": "medium", "text": "add input validation to the signup form using zod"}
+{"label": "medium", "text": "write a script that backs up the postgres db to s3 every night"}
+{"label": "medium", "text": "add a dark mode toggle that persists in localStorage"}
+{"label": "medium", "text": "convert this callback-based module to async/await"}
+{"label": "medium", "text": "add retry with exponential backoff to the http client"}
+{"label": "medium", "text": "implement a CLI command `export` that dumps the db tables to csv"}
+{"label": "medium", "text": "why is this test flaky? it passes locally but fails in CI sometimes"}
+{"label": "medium", "text": "write a GitHub Actions workflow to lint and test on every PR"}
+{"label": "medium", "text": "add caching to the get_product function using redis"}
+{"label": "medium", "text": "create a Dockerfile for this flask app with a multi-stage build"}
+{"label": "medium", "text": "fix the memory leak in this useEffect hook"}
+{"label": "medium", "text": "add structured logging with request ids to the express server"}
+{"label": "medium", "text": "write a terraform module for an s3 bucket with versioning and encryption"}
+{"label": "medium", "text": "the date picker shows the wrong timezone, fix it"}
+{"label": "medium", "text": "add an endpoint to upload profile pictures and resize them to 256px"}
+{"label": "medium", "text": "migrate this file from javascript to typescript with proper types"}
+{"label": "medium", "text": "implement soft delete for the Order model"}
+{"label": "medium", "text": "write a sql query that returns the top 10 customers by revenue per month"}
+{"label": "medium", "text": "add rate limiting middleware to the api, 100 req/min per ip"}
+{"label": "medium", "text": "set up eslint and prettier for this project and fix existing violations"}
+{"label": "medium", "text": "build a simple markdown previewer page"}
+{"label": "medium", "text": "add a health check endpoint that verifies db and redis connectivity"}
+{"label": "medium", "text": "write a python script to parse these nginx logs and report the slowest endpoints"}
+{"label": "medium", "text": "implement JWT refresh tokens in the auth service"}
+{"label": "medium", "text": "our csv import crashes on files with BOM characters, handle it"}
+{"label": "medium", "text": "add sorting and filtering to the orders table component"}
+{"label": "medium", "text": "replace the hand-rolled config parser with pydantic settings"}
+{"label": "medium", "text": "write integration tests for the payments webhook handler"}
+{"label": "medium", "text": "add an email notification when an order ships"}
+{"label": "medium", "text": "the build fails with a webpack error about missing loaders, fix the config"}
+{"label": "medium", "text": "create a db migration that adds an index on users.email and backfills lowercase emails"}
+{"label": "medium", "text": "implement a debounce hook in react and use it in the search bar"}
+{"label": "medium", "text": "add openapi docs to the fastapi routes"}
+{"label": "medium", "text": "write a bash script that rotates logs older than 7 days"}
+{"label": "medium", "text": "fix the N+1 query in the blog posts list view"}
+{"label": "medium", "text": "add i18n support for english and spanish to the settings page"}
+{"label": "medium", "text": "make the mobile nav menu responsive and accessible"}
+{"label": "medium", "text": "implement a LRU cache class with get and put in O(1)"}
+{"label": "medium", "text": "this lambda times out after 3 seconds when calling dynamodb, figure out why"}
+{"label": "medium", "text": "add a feature flag system using environment variables"}
+{"label": "medium", "text": "write a k8s deployment and service yaml for this app"}
+{"label": "medium", "text": "add coverage reporting to pytest and fail under 80%"}
+{"label": "medium", "text": "implement CSV and JSON export for the reports page"}
+{"label": "medium", "text": "debug why the websocket connection drops after 60 seconds"}
+{"label": "medium", "text": "add optimistic updates to the todo list mutations"}
+{"label": "large", "text": "add multi-tenancy to the app: every table needs a tenant_id, all queries must be scoped, and existing data needs migrating"}
+{"label": "large", "text": "design and implement an event-driven order pipeline with SQS, retries, DLQ, and idempotent consumers"}
+{"label": "large", "text": "we have a race condition somewhere between the cache invalidation and the db writes that corrupts balances under load, track it down"}
+{"label": "large", "text": "migrate our auth from session cookies to OAuth2/OIDC with Entra ID across the frontend, api gateway and three backend services"}
+{"label": "large", "text": "do a security review of this codebase and fix any injection, authz, or secrets issues you find"}
+{"label": "large", "text": "the p99 latency on the search API went from 200ms to 2s after last week's deploy, profile and fix it"}
+{"label": "large", "text": "refactor the monolith's billing module into a separate service with its own database, keeping the API backwards compatible"}
+{"label": "large", "text": "implement real-time collaborative editing for the notes feature using CRDTs"}
+{"label": "large", "text": "upgrade the project from django 2.2 to django 5, fixing all deprecations and breaking changes"}
+{"label": "large", "text": "build an RBAC system with roles, permissions, resource-level policies and an admin UI"}
+{"label": "large", "text": "our terraform state has drifted badly across dev/qa/prod, reconcile it and restructure into reusable modules without destroying resources"}
+{"label": "large", "text": "implement a plugin architecture so third parties can add data source connectors"}
+{"label": "large", "text": "write a query planner optimisation that pushes filters down through joins in our custom SQL engine"}
+{"label": "large", "text": "add end-to-end encryption to the chat feature including key exchange and device verification"}
+{"label": "large", "text": "the kafka consumers are lagging and occasionally processing messages twice, redesign the consumer group handling to fix both"}
+{"label": "large", "text": "port this python data pipeline to rust for performance while keeping identical output"}
+{"label": "large", "text": "set up a full observability stack: tracing with opentelemetry across all services, metrics, dashboards and alerts"}
+{"label": "large", "text": "build an offline-first sync engine for the mobile app with conflict resolution"}
+{"label": "large", "text": "investigate why our ML model's accuracy dropped in production and build a drift detection pipeline"}
+{"label": "large", "text": "implement a blue/green deployment pipeline with automated rollback based on error rate"}
+{"label": "large", "text": "convert the redux store to zustand across the whole app, about 80 components touch it"}
+{"label": "large", "text": "write a custom kubernetes operator that manages our database clusters, including backups and failover"}
+{"label": "large", "text": "the app deadlocks intermittently in production, here are thread dumps from three incidents, find the root cause"}
+{"label": "large", "text": "design the schema and APIs for a double-entry ledger with audit trail and reconciliation jobs"}
+{"label": "large", "text": "add GDPR data export and right-to-be-forgotten across all services and data stores"}
+{"label": "large", "text": "replace our hand-written ORM with SQLAlchemy throughout the codebase without changing behaviour"}
+{"label": "large", "text": "build a RAG system over our internal docs with chunking, hybrid search, reranking and evaluation"}
+{"label": "large", "text": "implement a rate-limited, resumable, parallel file upload system supporting files up to 50GB"}
+{"label": "large", "text": "find out why memory grows unbounded in our node service over 48 hours and fix it"}
+{"label": "large", "text": "create a full test suite for this legacy module with no tests, then refactor it safely"}
+{"label": "large", "text": "implement a workflow engine with DAG scheduling, retries, and a web UI for monitoring runs"}
+{"label": "large", "text": "build a feature-store service that serves both batch and online features consistently"}
+{"label": "large", "text": "design a caching strategy for our graphql api including per-field invalidation"}
+{"label": "large", "text": "harden this MCP gateway: add Cedar policies, OAuth audience checks, per-tenant isolation and audit logging"}
+{"label": "large", "text": "migrate from REST to gRPC between our 6 internal services with a phased rollout plan"}
+{"label": "large", "text": "the payment reconciliation job produces mismatches of a few cents every month, figure out where the rounding errors come from across the pipeline"}
+{"label": "large", "text": "implement search-as-you-type with typo tolerance and ranking over 10 million products"}
+{"label": "large", "text": "split this 5000 line god class into a coherent set of modules with clear interfaces"}
+{"label": "large", "text": "build a schema migration tool for our nosql store that supports online, zero-downtime migrations"}
+{"label": "large", "text": "add SSO, SCIM provisioning and audit logs to make the product enterprise-ready"}
+{"label": "large", "text": "write a compiler pass that inlines small functions in our DSL interpreter and benchmark it"}
+{"label": "large", "text": "redesign the permissions model so that sharing works at folder level with inheritance and overrides"}
+{"label": "large", "text": "implement a multi-region active-passive failover for our api and database"}
+{"label": "large", "text": "audit all our dbt models for lineage issues and restructure into staging/intermediate/marts layers"}
+{"label": "large", "text": "build an agent that triages incoming support tickets, queries our knowledge base and drafts replies with citations"}
+{"label": "large", "text": "the iOS and Android apps disagree on cart totals in some cases, find every place the pricing logic diverges and unify it"}
+{"label": "large", "text": "implement row-level security in postgres for our saas and migrate the app to rely on it"}
+{"label": "large", "text": "create a load testing harness and find the throughput limit of our checkout flow, then remove the top bottleneck"}
+{"label": "large", "text": "port our angularjs frontend to react incrementally with both running side by side"}
+{"label": "large", "text": "design a data retention and archival system that moves cold data to s3 glacier and keeps it queryable"}
+{"label": "xl", "text": "rewrite our entire 400k line java monolith into microservices, plan the domain boundaries, data migration, and execute the first three services end to end"}
+{"label": "xl", "text": "design and implement a new distributed consensus protocol for our database that tolerates byzantine nodes, and prove its safety properties"}
+{"label": "xl", "text": "build a production-grade compiler for our new programming language: parser, type checker with inference, optimiser, and LLVM backend"}
+{"label": "xl", "text": "autonomously work through all 300 open issues in our backlog, prioritise, fix what you can, and open PRs for each"}
+{"label": "xl", "text": "build a complete operating system kernel in rust with virtual memory, a scheduler, and a filesystem that boots on real hardware"}
+{"label": "xl", "text": "we're getting silent data corruption once every few weeks across our distributed storage cluster, no repro, investigate across the whole stack from firmware to application"}
+{"label": "xl", "text": "design the end-to-end architecture for a global, multi-cloud trading platform with sub-millisecond latency, regulatory compliance in 12 jurisdictions, and implement the matching engine"}
+{"label": "xl", "text": "formally verify our cryptographic library in Coq and fix any discrepancies with the spec"}
+{"label": "xl", "text": "build a full browser engine: HTML parser, CSS layout, JavaScript runtime integration and rendering"}
+{"label": "xl", "text": "migrate our company's whole data platform from on-prem teradata to snowflake: 4000 tables, 900 ETL jobs, all reports, with parallel run reconciliation"}
+{"label": "xl", "text": "research and implement a novel algorithm that beats the state of the art on this graph partitioning benchmark, and write up the paper"}
+{"label": "xl", "text": "spend the next few days building a self-hosted alternative to Figma with real-time multiplayer, vector editing and plugins"}
+{"label": "xl", "text": "reverse engineer this undocumented binary network protocol from packet captures and build a compatible open-source client and server"}
+{"label": "xl", "text": "design and implement a multi-agent platform with orchestration, tool sandboxing, memory, evaluation harness, policy guardrails and deploy it across three AWS accounts"}
+{"label": "xl", "text": "take our research prototype and turn it into a production SaaS: auth, billing, multi-tenancy, infra as code, CI/CD, monitoring, docs, and SOC2 readiness"}
+{"label": "xl", "text": "find and fix the performance regression in our 10 million line C++ codebase that only shows up on certain CPU microarchitectures"}
+{"label": "xl", "text": "build a JIT compiler for our python-like scripting language with tracing, deoptimisation and a garbage collector"}
+{"label": "xl", "text": "design a new storage engine (LSM-based) for our database, implement it, and make it pass the full jepsen test suite"}
+{"label": "xl", "text": "audit the security of our entire cloud estate across 40 AWS accounts, threat model every system, and remediate critical findings"}
+{"label": "xl", "text": "build an end-to-end autonomous driving simulation environment with physics, sensor models and scenario generation"}
+{"label": "xl", "text": "we need to rewrite the whole frontend, backend and data model of our product to support a completely new business model, figure out the plan and start executing"}
+{"label": "xl", "text": "implement a full SQL database from scratch with a query optimizer, MVCC transactions, WAL and replication"}
+{"label": "xl", "text": "understand this entire 2 million line legacy COBOL banking system, document every business rule, and produce a modernisation roadmap"}
+{"label": "xl", "text": "build a distributed training framework that shards a 400B parameter model across 1000 GPUs with fault tolerance"}
+{"label": "xl", "text": "investigate a heisenbug that only reproduces in production across 5 services, 2 message queues and a third-party api, with partial logs from the last 6 months"}
+{"label": "xl", "text": "design and implement a programming language for smart contracts with a formally verified type system and compiler to EVM"}
+{"label": "xl", "text": "create a complete clone of slack: channels, threads, search, voice calls, integrations, mobile apps, and deployment"}
+{"label": "xl", "text": "re-architect our ML platform to support training, serving, feature store, experiment tracking, and governance for 200 data scientists"}
+{"label": "xl", "text": "write a full game engine with ECS, physics, rendering pipeline, audio and editor tooling"}
+{"label": "xl", "text": "plan and execute the migration of every service in our org from python 2 to python 3, about 600 repos, with zero downtime"}
+{"label": "xl", "text": "prove or disprove whether our scheduling algorithm is optimal under these constraints, and if not design one that is"}
+{"label": "xl", "text": "build a static analysis tool that finds concurrency bugs across our go, java and rust services and integrates with CI"}
+{"label": "xl", "text": "design a zero-trust network architecture for the whole company and implement it across on-prem, aws and azure"}
+{"label": "xl", "text": "develop a self-improving coding agent that can work on our repos for days, with planning, verification and memory"}
+{"label": "xl", "text": "decompile and rewrite this legacy delphi desktop app as a modern web app with full feature parity, there's no source code"}
+{"label": "xl", "text": "build a real-time fraud detection system processing 1 million transactions per second with explainable ML and case management UI"}
+{"label": "xl", "text": "implement a full POSIX-compatible distributed filesystem with strong consistency and erasure coding"}
+{"label": "xl", "text": "analyse 5 years of our incident postmortems, identify systemic causes, and redesign our platform architecture to eliminate them"}
+{"label": "xl", "text": "build a complete ERP system for a manufacturing company: inventory, procurement, production planning, finance and HR"}
+{"label": "xl", "text": "port the linux kernel driver for this obscure network card to freebsd and upstream it"}
+{"label": "xl", "text": "create a new deep learning architecture that improves on transformers for long-context reasoning, train it and benchmark"}
+{"label": "xl", "text": "design and build a national-scale identity verification platform with biometric matching, privacy guarantees and 99.999% uptime"}
+{"label": "xl", "text": "take over maintenance of this abandoned open-source project with 2000 open issues: triage, fix critical bugs, modernise the build, and cut a release"}
+{"label": "xl", "text": "build an emulator for the playstation 2 that runs commercial games at full speed"}
+{"label": "xl", "text": "work out why our quarterly revenue numbers differ between finance, the data warehouse and three source systems, trace every transformation and fix the whole chain"}
+{"label": "xl", "text": "implement a complete kubernetes alternative tailored for edge devices with intermittent connectivity"}
+{"label": "xl", "text": "write a full-featured IDE with language server support, debugger, git integration and extensions"}
+{"label": "xl", "text": "turn this 50-page regulatory document into an automated compliance engine that checks all our systems and produces audit evidence"}
+{"label": "xl", "text": "rebuild our search infrastructure from elasticsearch to a custom vector+keyword engine serving 5 billion documents"}
+{"label": "xl", "text": "design a brand new consensus-based replicated state machine library, implement it in three languages with identical semantics, and fuzz it for a week"}

@@ -1,0 +1,9 @@
+{
+  "name": "viola",
+  "displayName": "Viola",
+  "version": "0.1.1",
+  "description": "On-device model routing: every prompt goes to Haiku, Sonnet, Opus or Fable, chosen locally by an open Jev-style decision model.",
+  "author": { "name": "Sarthak Rastogi" },
+  "license": "Apache-2.0",
+  "keywords": ["routing", "cost", "models", "local", "privacy"]
+}
